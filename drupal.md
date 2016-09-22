@@ -6,7 +6,7 @@ Same as regular boinc-server-docker, just Docker and docker-compose.
 
 ## Instructions
 
-* clone this repo and bring up the server (the build will take a while the first time),
+* clone this repo (with `--recursive`) then bring up the server (the build will take a while the first time) with,
 
  ```
  docker-compose up -d --build
@@ -14,7 +14,7 @@ Same as regular boinc-server-docker, just Docker and docker-compose.
 
 * point browser to localhost/install.php
 
-    *if when you access this pae you see an error about the database, wait a few seconds then refresh, its just that it take a moment for the mysql to boot up*
+    *if when you access this page you see an error about the database, wait a few seconds then refresh, it take a moment for the mysql container to boot up*
 
 * click on "Install" and go through the install process
 
