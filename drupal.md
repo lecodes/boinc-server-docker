@@ -2,12 +2,16 @@
 
 ## Requirements
 
-Same as regular boinc-server-docker, just Docker and docker-compose. 
+Same as regular boinc-server-docker, i.e. Docker and docker-compose. 
 
 ## Instructions
 
-* clone this repo (with `--recursive`) then bring up the server (the build will take a while the first time) with,
+* clone this repo on the `drupal` branch 
+ ```
+ git clone --recursive https://github.com/marius311/boinc-server-docker.git drupal
+ ```
 
+* bring up the server (the build will take a while the first time)
  ```
  docker-compose up -d --build
  ```
